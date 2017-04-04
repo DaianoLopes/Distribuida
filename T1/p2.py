@@ -15,6 +15,7 @@ def index():
     for i in historico:form+= "Usuário <b>"+i[0]+"</b>: Disse: <i>"+i[1]+"</i><br>"	
     return form
 
+
 @post('/send')
 def index2():
     nome = request.forms.get('nome')
